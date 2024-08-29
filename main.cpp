@@ -6,6 +6,7 @@ bool more(int a, int b);
 
 int main(int, char**)
 {
+    int b;
     return 0;
 }
 
