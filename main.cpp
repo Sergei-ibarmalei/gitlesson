@@ -1,6 +1,7 @@
 #include <iostream>
 
 bool equals(int a, int b);
+bool less(int a, int b);
 
 int main(int, char**)
 {
@@ -10,4 +11,9 @@ int main(int, char**)
 bool equals(int a, int b)
 {
     return a == b;
+}
+
+bool less(int a, int b)
+{
+    return a < b;
 }
